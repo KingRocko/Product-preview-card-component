@@ -100,6 +100,40 @@
     /* Primitive Properties */
     :root {
 
+        --color-black: hsl(212, 21%, 14%);
+        --color-grey: hsl(228, 12%, 48%);
+        --color-cream: hsl(30, 38%, 92%);
+        --color-white: hsl(0, 0%, 100%);
+        --color-green-500: hsl(158, 36%, 37%);
+        --color-green-700: hsl(158, 42%, 18%);
+
+        --font-family-fraunces: "Fraunces", serif;
+        --font-family-montserrat: "Montserrat", sans-serif;
+
+        --font-weight-medium: 500;
+        --font-weight-bold: 700;
+
+        --font-size-150: 0.75rem;
+        --font-size-163: 0.8125rem;
+        --font-size-175: 0.875rem;
+        --font-size-400: 2rem;
+
+        --line-height-none: 1;
+        --line-height-extratight: 1.1;
+        --line-height-tight: 1.2;
+        --line-height-relaxed: 1.6;
+
+        /* The em value always relates to the font size of the element it is applied to, not to the root font size (e.g. 16px). Here it's 12px. Therefore: 5px / 12px = 0.4167em */
+        --letter-spacing-widest: 0.4167em;
+
+        --border-radius-100: 0.5rem;
+
+        --space-50: 0.25rem;
+        --space-100: 0.5rem;
+        --space-200: 1rem;
+        --space-300: 1.5rem;
+        --space-400: 2rem;
+        --space-500: 2.5rem;
     }
 
     /* Semantic Properties */
