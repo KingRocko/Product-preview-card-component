@@ -139,6 +139,47 @@
     /* Semantic Properties */
     :root {
 
+        --color-bg-body: var(--color-cream);
+        --color-bg-card: var(--color-white);
+        --color-bg-button: var(--color-green-500);
+        --color-bg-button-hover: var(--color-green-700);
+
+        --color-text-heading: var(--color-black);
+        --color-text-price: var(--color-green-500);
+        --color-text-base: var(--color-grey);
+        --color-text-button: var(--color-white);
+
+        --font-family-heading: var(--font-family-fraunces);
+        --font-family-price: var(--font-family-fraunces);
+        --font-family-base: var(--font-family-montserrat);
+
+        --font-size-heading: var(--font-size-400);
+        --font-size-price: var(--font-size-400);
+        --font-size-price-old: var(--font-size-163);
+        --font-size-category: var(--font-size-150);
+        --font-size-base: var(--font-size-175);
+
+        --font-weight-heading: var(--font-weight-bold);
+        --font-weight-price: var(--font-weight-bold);
+        --font-weight-base: var(--font-weight-medium);
+        --font-weight-button: var(--font-weight-bold);
+
+        --line-height-heading: var(--line-height-none);
+        --line-height-price: var(--line-height-none);
+        --line-height-price-old: var(--line-height-tight);
+        --line-height-category: var(--line-height-tight);
+        --line-height-base: var(--line-height-relaxed);
+        --line-height-button: var(--line-height-extratight);
+
+        --letter-spacing-category: var(--letter-spacing-widest);
+
+        --border-radius-card: var(--border-radius-100);
+
+        --space-card-content-gap: var(--space-300);
+
+        @media (width >= 48em) {
+            --space-card-content-gap: var(--space-400);
+        }
     }
 }
 
