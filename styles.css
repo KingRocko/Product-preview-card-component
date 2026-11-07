@@ -76,6 +76,23 @@
 
 @layer font-embedding {
 
+    @font-face {
+        font-family: "Fraunces";
+        /* local() intentionally omitted: an installed static version could match but lack the full weight range */
+        src: url("fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        /* local() intentionally omitted: an installed static version could match but lack the full weight range */
+        src: url("fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+    }
 }
 
 @layer base {
