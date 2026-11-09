@@ -202,7 +202,7 @@
             flex: 0 0 50%;
         }
     }
-    
+
     .product-image {
         inline-size: 100%;
         block-size: 100%;
@@ -280,20 +280,22 @@
 
 
     main {
-        display: inline;
+        display: flex;
+        justify-content: center;
     }
 
     .card {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        inline-size: 21.875rem;
+        max-inline-size: 21.875rem;
+        inline-size: 100%;
         background-color: var(--color-bg-card);
         border-radius: var(--border-radius-card);
 
         @media (width >= 48em) {
             flex-direction: row;
-            inline-size: 37.5rem;
+            max-inline-size: 37.5rem;
         }
     }
 
