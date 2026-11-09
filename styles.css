@@ -196,8 +196,18 @@
 
 @layer layout {
 
+    .image-wrapper {
+        block-size: 900px;
+        inline-size: 1000px;
+        height: auto;
+    }
+
     .product-image {
         border-radius: var(--border-radius-card) var(--border-radius-card) 0 0;
+
+        @media (width >= 48em) {
+            border-radius: var(--border-radius-card) 0 0 var(--border-radius-card);
+        }
     }
 
     .content-wrapper {
@@ -265,6 +275,7 @@
 
 @layer components {
 
+
     main {
         display: inline;
     }
@@ -277,6 +288,11 @@
         inline-size: 21.875rem;
         background-color: var(--color-bg-card);
         border-radius: var(--border-radius-card);
+
+        @media (width >= 48em) {
+            flex-direction: row;
+            inline-size: 37.5rem;
+        }
     }
 
     .add-to-cart-button {
