@@ -49,7 +49,6 @@ Users should be able to:
 
 - I explored how Flexbox, `inline-size`, `block-size`, and `object-fit` work together when displaying responsive images. Choosing a suitable approach involves considering both the image and its container, especially when the layout needs to adapt to different screen sizes while preserving the intended proportions and cropping.
 
-
 ### Continued development
 
 - I want to deepen my understanding of how Flexbox behaves in responsive layouts, particularly when images are involved. I plan to explore how flex items grow and shrink, how their default minimum sizes affect the layout, and how these behaviors interact with image dimensions. This should help me make more deliberate layout decisions and solve sizing issues with greater confidence.
